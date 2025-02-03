@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./Button";
 
 const Header: React.FC = () => {
     return(
@@ -8,16 +9,10 @@ const Header: React.FC = () => {
         ContentSync
         </div>
         
-        <div className="flex items-center">
-        <div className="mx-4">
-        Home
-        </div>
-        <div className="mx-4">
-        About
-        </div>
-        <div className="mx-4">
-        Account
-        </div>
+        <div className="flex items-center mr-4">
+        <Button name="Home"/>
+        <Button name="About"/>
+        <Button name="Account"/>
         </div>
         </div>
     );

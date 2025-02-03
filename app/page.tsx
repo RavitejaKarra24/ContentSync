@@ -7,7 +7,7 @@ export default function Home() {
       <Header/>
         <hr className="bg-white"/>
         <div className="flex justify-evenly m-2 mt-32">
-        <MainButton name="Videos"/>
+        <MainButton name="Videos" />
         <MainButton name="Socials"/>
         <MainButton name="Analytics"/>
         </div>
